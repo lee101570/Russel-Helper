@@ -2,12 +2,13 @@
 
 
 
-<center><h3>MegaStudy Russel 활동을 보조하는, 개인 사용 목적의 프로그램입니다.<br><br></h3></center>
+<div align="center">
+<h3>MegaStudy Russel 활동을 보조하는, 개인 사용 목적의 프로그램입니다.<br><br></h3>
 
-<p align="center">
+
   <img src="https://img.shields.io/badge/%EA%B0%9C%EB%B0%9C%EC%8B%9C%EC%9E%91-2023_07_18-blue">
-<hr>
-<center><h1>📚 Tech Stack 📚</h1>
+
+<h1>📚 Tech Stack 📚</h1>
 <h3>✨ Platforms & Languages ✨</h3>
 <img src="https://img.shields.io/badge/NodeJS-바탕색?style=flat&logo=nodedotjs&logoColor=white&color=%23339933"/>
 <img src="https://img.shields.io/badge/HTML5-바탕색?style=flat&logo=html5&logoColor=white&color=%23E34F26"/>
@@ -24,4 +25,4 @@
 <hr>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lee101570&layout=compact"><br><br>
 <img src="https://github-readme-stats.vercel.app/api?username=lee101570&show_icons=true">
-</center>
+</div>
