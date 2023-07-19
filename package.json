@@ -1,0 +1,11 @@
+{
+  "name": "russel-helper",
+  "version": "1.0.0",
+  "description": "![header](https://capsule-render.vercel.app/api?type=Waving&color=gradient&height=300&section=header&text=Russel%20Helper&fontSize=100)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
