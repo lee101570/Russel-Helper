@@ -23,6 +23,37 @@
 <img src="https://img.shields.io/badge/Portfolio-바탕색?style=flat&logo=southwestairlines&logoColor=white&color=%232ECCAA&link=https://msub.kr/mingyu9495"/>
 <br><br>
 <hr>
+<br><br>
+<h1>📚 Features 📚</h1>
+<h3>✨ Main Features ✨</h3>
+<h4>🏫 1. 러셀 단과수업 알리미</h4>
+<h4>📖 2. 러셀 과제 관리</h4>
+<h4>📊 3. 러셀 출석 통계 확인</h4>
+<h4>📚 4. 자습 관리</h4>
+<h4>📝 5. 기타 러셀 활동(좌석예약 등) 안내</h4>
+<br>
+<hr>
+<br><br>
+<!-- 개발 Todo -->
+<h1>📋 Todo 📋</h1>
+</div>
+
+할 일
+
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
+
+<hr>
+<br><br>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lee101570&layout=compact"><br><br>
 <img src="https://github-readme-stats.vercel.app/api?username=lee101570&show_icons=true">
-</div>
+
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=footer)
