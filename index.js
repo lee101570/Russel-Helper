@@ -100,7 +100,7 @@ async function nowTimeToClassTime() {
     var nowTime = date.getHours();
     var nowMinute = date.getMinutes();
     // var nowTimeCode = Number(String(nowTime) + await addZero(nowMinute))
-    var nowTimeCode = 1050
+    var nowTimeCode = 600
 
     console.log(nowTimeCode)
     for (var i = 0; i < Object.keys(classTimeTable).length; i++) {
@@ -160,6 +160,10 @@ async function checkScheduleRemainTimeGet(day) {
                         break;
                     }
                 }
+                // 해당 부분은 필요없을듯..? 혹시 모르니 남겨둠
+                // if (todaySchedule[todaySchedule.length - 1] < nowClassTimeNumber) {
+                //     checkScheduleRemainTimeVar += "다음 수업🏫: 없음"
+                // }
             }
             // console.log(checkScheduleRemainTimeVar)
             return checkScheduleRemainTimeVar;
@@ -202,11 +206,11 @@ async function nowUserStatus() {
             //쉬는시간 판별
             var isBreakTime = nowTimeToClassTime.split('교시')[1] == ' 쉬는시간'
             if (isBreakTime) {
-                userStatusText = '쉬는중😴'
+                userStatusText = '잠시 쉬는중😌'
             }
 
             //자습시간 판별
-            if(!isBreakTime){
+            if (!isBreakTime) {
                 userStatusText = '자습중🖊️'
             }
 
@@ -224,21 +228,9 @@ async function nowUserStatus() {
                     }
                 }
             }
-
-            //  if(nowTimeCode>=classTimeTable[Object.keys(classTimeTable)[i]][0] && nowTimeCode<=classTimeTable[Object.keys(classTimeTable)[i]][1]){
-            //     userStatusText = "수업중"
-            //  }
-            //  if(i==Object.keys(classTimeTable).length-1){
-            //     if(nowTimeCode>=classTimeTable[Object.keys(classTimeTable)[i]][1]){
-            //         userStatusText = "하원 후"
-            //     }
-            //     if(nowTimeCode<=classTimeTable[Object.keys(classTimeTable)[0]][0]){
-            //         userStatusText = "등원 전"
-            //     }
-            // }
-            // if(nowTimeCode>=classTimeTable[Object.keys(classTimeTable)[i]][1] && nowTimeCode<=classTimeTable[Object.keys(classTimeTable)[i+1]][0]){
-            //     userStatusText = '쉬는시간'
-            // }
+        }
+        if (nowTimeToClassTime == '하원 후' || nowTimeToClassTime == '등원 전') {
+            userStatusText = '깊게 쉬는중😴'
         }
     })
     return userStatusText;
@@ -436,7 +428,7 @@ bot.on('callback_query', async (query) => {
         if (data == 'my_study_info') {
             var myStudyInfoText = `[${year}년 ${month}월 ${day}일 ${dayOfWeekKorean}요일] 내 학습정보\n\n`
             if (await nowClassInfo() == '수업중이 아닙니다.') {
-                myStudyInfoText += '내 상태: ' + await nowUserStatus()
+                myStudyInfoText += '내 상태: ' + await nowUserStatus() + '(' + await nowTimeToClassTime() + ')'
             } else {
                 myStudyInfoText += '내 상태: ' + await nowUserStatus() + '(' + await nowClassInfo() + ')'
             }
