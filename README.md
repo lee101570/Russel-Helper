@@ -36,12 +36,9 @@
 <br><br>
 <!-- 개발 Todo -->
 <h1>📋 Todo 📋</h1>
-</div>
 
-할 일
-
-- [ ] Mercury
-- [x] Venus
+- [ ] 🌀메인 API 개발 
+    - [x] Venus 
 - [x] Earth (Orbit/Moon)
 - [x] Mars
 - [ ] Jupiter
