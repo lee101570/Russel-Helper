@@ -36,7 +36,7 @@
 <br><br>
 <!-- 개발 Todo -->
 <h1>📋 Todo 📋</h1>
-
+</div>
 - [ ] 🌀메인 API 개발 
     - [x] Venus 
 - [x] Earth (Orbit/Moon)
@@ -46,11 +46,11 @@
 - [ ] Uranus
 - [ ] Neptune
 - [ ] Comet Haley
-
+<div align="center">
 <hr>
 <br><br>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lee101570&layout=compact"><br><br>
 <img src="https://github-readme-stats.vercel.app/api?username=lee101570&show_icons=true">
-
+</div>
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=footer)
