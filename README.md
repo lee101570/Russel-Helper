@@ -37,15 +37,15 @@
 <!-- 개발 Todo -->
 <h1>📋 Todo 📋</h1>
 </div>
+
 - [ ] 🌀메인 API 개발 
-    - [x] Venus 
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+  - [ ] 단과 관련
+    - [ ] 수강 단과 정보 불러오기
+    - [ ] 
+  - [x] 현재 상태 불러오기
+    
+
+
 <div align="center">
 <hr>
 <br><br>
