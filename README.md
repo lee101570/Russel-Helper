@@ -3,7 +3,7 @@
 
 
 <div align="center">
-<h3>MegaStudy Russel 활동을 보조하는, 개인 사용 목적의 프로그램입니다.<br><br></h3>
+<h3>러셀 학원 활동을 보조하는, 개인 사용 목적의 프로그램입니다.<br><br></h3>
 
 
   <img src="https://img.shields.io/badge/%EA%B0%9C%EB%B0%9C%EC%8B%9C%EC%9E%91-2023_07_18-blue">
